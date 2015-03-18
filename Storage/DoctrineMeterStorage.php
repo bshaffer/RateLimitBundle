@@ -11,6 +11,7 @@
 
 namespace Perimeter\RateLimitBundle\Storage;
 
+use Perimeter\RateLimitBundle\Entity\RateLimitMeter;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Query;
 
