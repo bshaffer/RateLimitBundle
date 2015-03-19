@@ -1,0 +1,119 @@
+#requests {
+    list-style-type: none;
+}
+
+#data {
+    display:none;
+}
+
+h3 {
+    margin: 30px 30px 0px;
+}
+
+.list-item {
+    color: #555555;
+    font-family: "Helvetica Neue", Helvetica;
+    width: 330px;
+    border-radius: 5px;
+    padding: 6px;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+
+.running-item {
+    background-color: #eeeeee;
+    cursor: pointer;
+    min-height:20px;
+}
+
+.warn {
+    background-color: #FFD696;
+}
+
+.alert {
+    background-color: #FFA496;
+}
+
+.meter-id {
+    width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    float: left;
+}
+
+.meter-rate {
+    float: right;
+}
+
+.title-value {
+    font-size: 36pt;
+    float: right;
+    color: black;
+}
+
+.tiny-text {
+    font-size: 10px;
+}
+
+.title-item {
+    height: 54px;
+}
+
+.title-info {
+    font-size: 10pt;
+}
+
+.label-text {
+    color: #555555;
+    font-family: "Helvetica Neue", Helvetica;
+    font-size: 14pt;
+}
+
+.label-text-large {
+    color: #555555;
+    font-family: "Helvetica Neue", Helvetica;
+    font-size: 20pt;
+    position: relative;
+    top: -10;
+}
+
+.meter {
+    height: 8px;
+    position: relative;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    margin: 4px 2px 2px 2px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+    box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+    background-color: white;
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+       -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+           -moz-border-radius-topright: 20px;
+        -moz-border-radius-bottomright: 20px;
+               border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        -webkit-border-top-left-radius: 20px;
+     -webkit-border-bottom-left-radius: 20px;
+            -moz-border-radius-topleft: 20px;
+         -moz-border-radius-bottomleft: 20px;
+                border-top-left-radius: 20px;
+             border-bottom-left-radius: 20px;
+    background-color: #555555;
+    -webkit-box-shadow:
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    -moz-box-shadow:
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+}

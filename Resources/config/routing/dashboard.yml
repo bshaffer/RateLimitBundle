@@ -1,0 +1,9 @@
+rate_limit_dashboard_index:
+    pattern:  /dashboard
+    defaults: { _controller: perimeter.rate_limit.dashboard_controller:indexAction }
+    methods:  [GET]
+
+rate_limit_dashboard_data:
+    pattern:  /dashboard/data
+    defaults: { _controller: perimeter.rate_limit.dashboard_controller:dataAction }
+    methods:  [GET]
